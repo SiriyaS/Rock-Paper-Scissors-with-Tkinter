@@ -22,12 +22,12 @@ def rps(num):
 	else:
 		comAns = "SCISSORS"
 
-	comp['text'] = comAns				# Define what comp's text(line 68) will be
+	comp['text'] = comAns			# Define what comp's text(line 68) will be
 	label['text'] = result(num,com)		# Define what label's text(line 74) will be
 
 	
 def result(player,com):
-	if player == com:					# Player and Com answer the same
+	if player == com:			# Player and Com answer the same
 		print("DRAW")
 		result = "DRAW"
 	elif player == 2 and com == 1:		# Player : Scissors, Com : Paper
