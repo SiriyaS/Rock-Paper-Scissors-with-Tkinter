@@ -96,5 +96,8 @@ bt2_image = tk.PhotoImage(file = 'appsci3.png')
 button2.config(image = bt2_image, width = "150", height = "160")
 button2.place(relx = 0.68, rely = 0.68)
 
+# Method for setting the window to non-resizable
+root.resizable(False,False)
+
 # Method to run the App
 root.mainloop()
